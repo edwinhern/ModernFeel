@@ -1,0 +1,16 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: nobel, sans-serif;
+  font-style: normal;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

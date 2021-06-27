@@ -1,0 +1,32 @@
+{
+  "homepage": "http://edwinhern.github.io/ModernFeel",
+  "name": "Modern",
+  "description": "A simple spotify website",
+  "version": "0.1.0",
+  "author": "Edwin Hernandez",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "rc-tween-one": "^2.7.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-ModernFeel -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
